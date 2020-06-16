@@ -1,8 +1,4 @@
-on:
-  push:
-    branches:
-      - master
-  pull_request:
+on: push
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
