@@ -1,8 +1,10 @@
 # The URL the site will be built for
 base_url = "https://blog.gavrisco.com"
+title = "Alex Gavrisco"
+description = "Horizontally scalable blog"
 
-theme = "pickles"
-highlight_theme = "material-light"
+theme = "fluid"
+# highlight_theme = "material-light"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -14,5 +16,10 @@ highlight_code = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
+generate_feed = true
+
 [extra]
-# Put all your custom variables here
+fluid_embed_css = true
+fluid_sidebar_links = [
+    # {url = "https://google.com", name = "Google.com"},
+]
