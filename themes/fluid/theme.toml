@@ -1,0 +1,10 @@
+name = "fluid"
+description = "An extremely lightweight Zola theme with fluid two-column design"
+license = "MIT"
+homepage = "https://github.com/Alexx-G/Alexx-G.github.io/"
+min_version = "0.10.0"
+demo = ""
+
+[author]
+name = "Alex Gavrisco"
+homepage = "https://github.com/Alexx-G"

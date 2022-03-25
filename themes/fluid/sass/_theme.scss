@@ -1,0 +1,22 @@
+html {
+    font-family: "PT Sans", Helvetica, Arial, sans-serif;
+    @media (min-width: map-get($breakpoints, "md")) {
+        font-size: 16px;
+    }
+    @media (min-width: map-get($breakpoints, "lg")) {
+        font-size: 20px;
+    }
+}
+
+.sidebar {
+    background-color: #6a9fb5;
+
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+}

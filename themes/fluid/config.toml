@@ -1,0 +1,16 @@
+base_url = "https://quirky-perlman-34d0da.netlify.com"
+title = "Fluid - an extremely lightweight and fluid two-column theme"
+description = "Zola theme with a great Lighthouse score and acceptable UX"
+
+compile_sass = true
+generate_feed = true
+
+highlight_code = true
+# highlight_theme = "gruvbox-light"
+
+[extra]
+
+og_meta_enabled = true
+fluid_sidebar_links = [
+    # {url = "https://google.com", name = "Google.com"},
+]
